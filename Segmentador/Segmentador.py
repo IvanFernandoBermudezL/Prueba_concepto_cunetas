@@ -12,11 +12,9 @@ confidence_threshold = 0.86
 fps_deseado = 5
 zoom_factor = 1.5  # Zoom digital sobre la cuneta
 
-# === USAR MPS EN MAC ===
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
-# Cargar modelo en MPS
 model = YOLO(model_path)
 model.to(device)
 

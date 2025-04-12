@@ -73,7 +73,7 @@ for i in range(0, ancho - tamano_recuadro, paso):
     if len(detecciones_validas) > 0:
         recortes_validos.append(imagen_resultado)
 
-# === ASEGURAR MÍNIMO 3 RECORTES EN EL MOSAICO ===
+# === ASEGURAR RECORTES EN EL MOSAICO ===
 if len(recortes_validos) < 3:
     faltan = 3 - len(recortes_validos)
     extras = recortes_todos[:faltan]
