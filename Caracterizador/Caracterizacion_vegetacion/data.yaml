@@ -1,0 +1,7 @@
+train: /workspace/Dataset_crack/train/images 
+val: /workspace/Dataset_crack/valid/images
+test: /workspace/Dataset_crack/test/images 
+
+# Classes
+names:
+  0: Vegetation

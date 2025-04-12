@@ -1,0 +1,7 @@
+train: /workspace/Dataset_crack/train/images # train images (relative to 'path') 3717 images
+val: /workspace/Dataset_crack/valid/images # val images (relative to 'path') 112 images
+test: /workspace/Dataset_crack/test/images # test images (relative to 'path') 200 images
+
+# Classes
+names:
+  0: crack
